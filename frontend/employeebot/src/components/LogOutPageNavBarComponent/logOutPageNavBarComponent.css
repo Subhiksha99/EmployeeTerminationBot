@@ -1,0 +1,32 @@
+.rectangle {
+    background-color: #5A287D;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    display: inline-block;
+}
+
+
+.logo {
+    width: 60px;
+    height: 58.29px;
+    flex-shrink: 0;
+}
+
+.companyName {
+    color: #FFF;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    display: inline;
+}

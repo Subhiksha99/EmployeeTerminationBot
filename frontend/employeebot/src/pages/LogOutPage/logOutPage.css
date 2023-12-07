@@ -1,0 +1,14 @@
+.logOutBotGif {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    mix-blend-mode: multiply;
+}
+.logOutContent {
+    color: #000;
+    font-family: 'Inria', Serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 100;
+    line-height: normal;
+}

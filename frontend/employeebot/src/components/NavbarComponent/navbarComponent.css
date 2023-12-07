@@ -1,0 +1,85 @@
+.rectangle {
+    background-color: #5A287D;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    display: inline-block;
+}
+
+.botGif {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    mix-blend-mode: multiply;
+}
+
+.logo {
+    width: 60px;
+    height: 58.29px;
+    flex-shrink: 0;
+}
+
+.companyName {
+    color: #FFF;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    display: inline;
+}
+
+.rectangle2 {
+    background-color: #D9D9D9;
+}
+
+.profile-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    border-radius: 20px;
+    background-color: #C7DFF0;
+    min-width: 160px;
+    font-size: 22px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: black;
+
+}
+
+.dropdown-content .link {
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 50;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.link img {
+    margin-right: 15px;
+}
+
+.dropdown-content .link:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content .hr {
+    border-top: 1px dashed black;
+    margin: 8px 0;
+    padding: 5px;
+}

@@ -1,0 +1,286 @@
+/* DocumentationPage.css */
+
+/* CSS */
+.page {
+	display: flex;
+}
+
+.sidebar {
+	width: 20%;
+	padding: 20px;
+	background-color: #f0f0f0;
+}
+
+.section {
+	flex-grow: 1;
+	padding: 20px;
+}
+
+/* Additional styling as needed */
+
+.documentation-container {
+	padding: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+
+.user-story {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.code {
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-radius: 4px;
+	font-family: monospace;
+	overflow-x: auto;
+	white-space: pre-wrap;
+}
+
+.section-white {
+	background-color: #C4C4C4;
+	/*#eaabea;*/
+
+	padding: 70px 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	/* Use the desired font name or fallback font */
+}
+
+
+.team-item {
+	background: #f4f5f6;
+	text-align: center;
+	margin: 20px 0;
+	padding: 50px 20px 40px 20px;
+	border-radius: 8px 8px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover {
+	background: #3956de;
+	color: white;
+}
+
+.team-item h3 {
+	margin: 20px 0 1px 0 !important;
+	color: #454545;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+.section-subtitle {
+	white-space: pre-line;
+}
+
+.team-item:hover h3 {
+	color: #ddd;
+}
+
+.team-info {
+	display: block;
+	margin-bottom: 0;
+}
+
+.team-info p {
+	color: #acacac;
+	font-style: italic;
+}
+
+.team-info::after {
+	background: #008aff;
+	background: -webkit-linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+	background: -o-linear-gradient(bottom right, #6B02FF, #985BEF);
+	background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
+	background: linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	width: 50px;
+	height: 3px;
+}
+
+.team-img {
+	max-width: 140px;
+	padding: 6px 6px;
+	background-color: #dedede;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+ul.team-icon {
+	margin-top: 25px;
+}
+
+ul.team-icon li {
+	display: inline-block;
+	margin: 0 3px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+ul.team-icon li a {
+	margin: 0;
+	display: inline-block;
+	padding: 8px 8px;
+	width: 34px;
+	height: 34px;
+	font-size: 18px;
+	line-height: 18px;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #fff;
+}
+
+ul.team-icon li a.twitter {
+	background-color: #4099ff;
+}
+
+ul.team-icon li a.pinterest {
+	background-color: #C92228;
+}
+
+ul.team-icon li a.facebook {
+	background-color: #3b5998;
+}
+
+ul.team-icon li a.dribble {
+	background-color: #ea4c89;
+}
+
+.team-icon li a:hover {
+	color: #dedede;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+
+.team-members-container-horizontal {
+	display: flex;
+	overflow-x: auto;
+	/* Enable horizontal scrolling */
+	white-space: nowrap;
+	/* Prevent wrapping to new lines */
+	gap: 20px;
+	/* Adjust the spacing between team members */
+}
+
+.team-img {
+	max-width: 100%;
+	/* Ensure the image fits within the card */
+}
+
+.team-description {
+	margin-top: 10px;
+	/* Add margin between position and description */
+}
+
+.team-member-card {
+	width: 300px;
+	/* Adjust the width of each card as needed */
+	margin: 0 10px;
+	/* Add spacing between cards */
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	display: inline-block;
+	/* Make cards display inline */
+	vertical-align: top;
+}
+
+.team-member {
+	flex: 0 0 300px;
+	/* Fixed width for each team member card */
+	/* Add any additional styles for your team member cards */
+}
+
+.team-members-container-horizontal {
+	display: flex;
+	overflow-x: auto;
+	/* Enable horizontal scrolling */
+	white-space: nowrap;
+	/* Prevent wrapping to new lines */
+	gap: 20px;
+	/* Adjust the spacing between team members */
+}
+
+.team-img-container {
+	width: 150px;
+	/* Adjust the dimensions of the circular container */
+	height: 150px;
+	border-radius: 50%;
+	/* Create a circular container */
+	overflow: hidden;
+	/* Hide any image overflow outside the circular container */
+	margin: 0 auto;
+	/* Center the circular container */
+}
+
+.team-img {
+	max-width: 100%;
+	/* Ensure the image fits within the card */
+	object-fit: cover;
+}
+
+.team-description {
+	margin-top: 10px;
+	/* Add margin between position and description */
+}
+
+.team-member-card {
+	width: 300px;
+	/* Adjust the width of each card as needed */
+	margin: 0 10px;
+	/* Add spacing between cards */
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	display: inline-block;
+	/* Make cards display inline */
+	vertical-align: top;
+}
+
+.team-member {
+	flex: 0 0 300px;
+	/* Fixed width for each team member card */
+	/* Add any additional styles for your team member cards */
+}

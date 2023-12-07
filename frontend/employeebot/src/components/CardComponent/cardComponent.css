@@ -1,0 +1,15 @@
+.cardContent {
+    color: #000;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    line-height: normal;
+}
+
+.cardTitle {
+    color: #000;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    line-height: normal;
+}
